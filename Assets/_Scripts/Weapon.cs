@@ -11,6 +11,8 @@ public class Weapon : MonoBehaviour
     public List<GameObject>bulletPool;
     public Transform gunMuzzle;
     public GameObject bulletPrefab;
+    public Vector3 spawnPosition;
+    public Vector3 spawnRotation;
     public float bulletVelocity = 30;
     public float delay = 3;
     public float spreadIntensity;

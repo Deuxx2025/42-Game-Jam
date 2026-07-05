@@ -15,8 +15,8 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
-    bool isGrounded;
-    bool isMoving;
+    private bool isGrounded;
+    public bool isMoving;
 
     private Vector3 lastPosition = new Vector3(0f,0f,0f);
     private CharacterController controller;

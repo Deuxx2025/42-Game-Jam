@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d7ecca10c7ef9614bbf5f1df6ed725aa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212088
+  packageName: Police Equipment
+  packageVersion: 1.0
+  assetPath: Assets/Police_Props/SimpleCameraController.cs
+  uploadId: 477009

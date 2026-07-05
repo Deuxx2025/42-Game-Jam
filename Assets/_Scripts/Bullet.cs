@@ -9,5 +9,11 @@ public class Bullet : MonoBehaviour
             print("hit" + collision.gameObject.name);
             gameObject.SetActive(false);
         }
+
+        if (collision.gameObject.CompareTag("wall"))
+        {
+            print("hit" + collision.gameObject.name);
+            gameObject.SetActive(false);
+        }
     }
 }
